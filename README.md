@@ -2,4 +2,4 @@
 
 Testing build for ansible
 
-testing for artifact
+testing for artifacts
