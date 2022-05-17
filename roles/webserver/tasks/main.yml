@@ -1,13 +1,13 @@
 ---
 - name: install apache
   become: true
-  ansible.builtin.apt:
+  ansible.builtin.yum:
     name: "httpd"
     state: present
 
 - name: install git
   become: true
-  ansible.builtin.apt:
+  ansible.builtin.yum:
     name: "git"
     state: present
 
